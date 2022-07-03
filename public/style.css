@@ -135,6 +135,10 @@ body{
     margin-bottom: 5px;
 }
 
+.chat-screen .messages .message .text {
+    word-wrap: break-word;
+}
+
 .chat-screen .messages .update {
     text-align: center;
     padding: 10px;
@@ -149,12 +153,19 @@ body{
 
 /* 15:54m */
 
+.chat-screen .typebox input {
+    flex: 1;
+    height: 50px;
+    font-size: 18px;
+}
 
-
-
-
-
-
-
-
-
+.chat-screen .typebox button {
+    width: 80px;
+    height: 100%;
+    background: #111;
+    color: #eee;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
